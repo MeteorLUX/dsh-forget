@@ -1,0 +1,5 @@
+# dsh-forget bundle patch: mounts the /forget command plugin as one row over
+# the profile root. The row name resolves to this package's lib/index.js.
+- insert:
+    - id: forget
+      name: 'dsh-forget'
